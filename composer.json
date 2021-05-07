@@ -6,13 +6,15 @@
         "vimeo/psalm": "^4.7",
         "friendsofphp/php-cs-fixer": "^3.0",
         "phpunit/phpunit": "^9.5",
-        "roave/security-advisories": "dev-latest"
+        "roave/security-advisories": "dev-latest",
+        "roave/backward-compatibility-check": "dev-master"
     },
     "autoload": {
         "psr-4": {
             "Homeapp\\LibraryOrProjectName\\": "src"
         }
     },
+    "minimum-stability": "dev",
     "autoload-dev": {
         "psr-4": {
             "Test\\": "test"
