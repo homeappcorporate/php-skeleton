@@ -3,7 +3,7 @@
 namespace Homeapp\LibraryOrProjectName;
 
 /** @psalm-suppress UnusedClass */
-class Example
+final class Example
 {
     public function test():string
     {

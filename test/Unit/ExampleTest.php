@@ -5,7 +5,10 @@ namespace Test\Unit;
 use Homeapp\LibraryOrProjectName\Example;
 use PHPUnit\Framework\TestCase;
 
-class ExampleTest extends TestCase
+/**
+ * @covers Example
+ */
+final class ExampleTest extends TestCase
 {
     public function testVerifyClassIsWorkingAsExpected():void
     {
