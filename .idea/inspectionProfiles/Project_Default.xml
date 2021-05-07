@@ -13,6 +13,13 @@
       <option name="DONT_REPORT_MULTI_RESOLVE" value="true" />
     </inspection_tool>
     <inspection_tool class="PsalmGlobal" enabled="true" level="ERROR" enabled_by_default="true">
+      <scope name="Tests" level="WEAK WARNING" enabled="true">
+        <option name="config" value="$PROJECT_DIR$/psalm.xml" />
+        <option name="showInfo" value="true" />
+        <option name="findUnusedCode" value="true" />
+        <option name="findUnusedSuppress" value="true" />
+      </scope>
+      <option name="config" value="$PROJECT_DIR$/psalm.xml" />
       <option name="showInfo" value="true" />
       <option name="findUnusedCode" value="true" />
       <option name="findUnusedSuppress" value="true" />
