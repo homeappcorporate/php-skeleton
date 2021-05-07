@@ -1,6 +1,7 @@
 # Project specific .gitignore
 vendor
 .phpunit.result.cache
+.phpunit.cache
 
 # PHPStorm
 # Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/20654483
