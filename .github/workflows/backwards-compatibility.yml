@@ -3,6 +3,9 @@ name: "Check Backwards Compatibility"
 on:
   pull_request:
   push:
+  create:
+  release:
+    types: [published, created]
 
 jobs:
   coding-standards:
