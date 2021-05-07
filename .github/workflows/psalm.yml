@@ -53,4 +53,4 @@ jobs:
         run: "composer install --no-interaction --no-progress --no-suggest"
 
       - name: "psalm"
-        run: "vendor/bin/psalm  --output-format=github --shepherd --stats"
+        run: "vendor/bin/psalm  --output-format=github --stats"
