@@ -1,6 +1,6 @@
 # A skeleton project
 ## How to use
-`composer create-project create-project homeapp/php-skeleton repositry-name`
+`composer create-project homeapp/php-skeleton repositry-name`
 
 
 
