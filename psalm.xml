@@ -2,6 +2,7 @@
 <psalm
     errorLevel="1"
     findUnusedVariablesAndParams="true"
+    checkForThrowsDocblock="true"
     findUnusedCode="true"
     findUnusedPsalmSuppress="true"
     forbidEcho="true"
@@ -18,6 +19,11 @@
         </ignoreFiles>
     </projectFiles>
     <issueHandlers>
+        <MissingThrowsDocblock>
+            <errorLevel type="suppress">
+                <directory name="test"/>
+            </errorLevel>
+        </MissingThrowsDocblock>
         <PropertyNotSetInConstructor>
             <errorLevel type="suppress">
                 <directory name="test"/>
